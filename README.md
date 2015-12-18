@@ -1,5 +1,9 @@
 # dashing-polarchart
 
+## Preview
+
+![PolarChart](https://raw.githubusercontent.com/wiki/jorgemorgado/dashing-polarchart/polarchart.png)
+
 ## Description
 
 Simple [Dashing](http://shopify.github.com/dashing) widget (and associated job)
