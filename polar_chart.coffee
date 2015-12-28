@@ -4,10 +4,10 @@ class Dashing.PolarChart extends Dashing.Widget
     @ctx = $(@node).find('.chart-area')[0].getContext('2d')
     @myData = @get('segments')
 
-    @myChart = new Chart(@ctx).PolarArea(@myData, {
+    @myChart = new Chart(@ctx).PolarArea(@myData, $.extend({
       responsive: true
       segmentShowStroke: true
-    })
+    }, @get('options')))
 
   onData: (data) ->
     # Load new values, ie,

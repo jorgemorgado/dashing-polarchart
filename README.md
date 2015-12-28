@@ -55,8 +55,9 @@ data = [{
     label: "April",
   }
 ]
+options = { segmentStrokeColor: '#333' }
 
-send_event('polarchart', { segments: data })
+send_event('polarchart', { segments: data, options: options })
 ```
 
 ## Contributors
